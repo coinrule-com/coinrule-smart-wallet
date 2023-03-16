@@ -1,0 +1,108 @@
+{
+  "arbitrum": {
+    "id": "1.3.9",
+    "facets": [
+      {
+        "name": "DiamondLoupeFacet",
+        "facetAddress": "0x9f78C7690C14b54B4E6e20965A0BA45F48B57730",
+        "action": 0,
+        "functionSelectors": [
+          "0xcdffacc6",
+          "0x52ef6b2c",
+          "0xadfca15e",
+          "0x7a0ed627",
+          "0x01ffc9a7"
+        ]
+      },
+      {
+        "name": "DepositFacet",
+        "facetAddress": "0x21c2C9620C369F1350159d4479bf615cE00419e4",
+        "action": 0,
+        "functionSelectors": [
+          "0x79ce95b6"
+        ]
+      },
+      {
+        "name": "ExchangeAddressesFacet",
+        "facetAddress": "0x010662E7C769EDd5a8d14A6ba974f3c096A93567",
+        "action": 0,
+        "functionSelectors": [
+          "0x38eada1c",
+          "0x93ca8d49",
+          "0x4ba79dfe",
+          "0x6a5755fa"
+        ]
+      },
+      {
+        "name": "OwnershipFacet",
+        "facetAddress": "0x10c0a5B76091969949F2dB0b72092468ca630413",
+        "action": 0,
+        "functionSelectors": [
+          "0xc9fcf503",
+          "0xcf650d7e",
+          "0x8da5cb5b",
+          "0x5be7cc16",
+          "0xc3f59687",
+          "0xf2fde38b"
+        ]
+      },
+      {
+        "name": "UniswapFacet",
+        "facetAddress": "0xa7F42B2A758a3577a57cED06E1026887fB6451E2",
+        "action": 0,
+        "functionSelectors": [
+          "0x2e4f2eb5",
+          "0xa8ab9f0e",
+          "0x2f2bd12b"
+        ]
+      },
+      {
+        "name": "ViewBalancesFacet",
+        "facetAddress": "0x3737444A5cAa1b7dd9549690a8BbA273ad9B36B5",
+        "action": 0,
+        "functionSelectors": [
+          "0x7639bde5",
+          "0x46a1c3e5"
+        ]
+      },
+      {
+        "name": "WithdrawFacet",
+        "facetAddress": "0x267b37482e57D1e42Bb7e30c62aE7c3e25aBF937",
+        "action": 0,
+        "functionSelectors": [
+          "0x59d9e711",
+          "0x41b3b7dc",
+          "0xa3a069b9"
+        ]
+      },
+      {
+        "name": "FeeManagementFacet",
+        "facetAddress": "0xEFf46397D2be58f2cC33C82D34C2d21e78621A0D",
+        "action": 0,
+        "functionSelectors": [
+          "0x3f1db309",
+          "0xac6a3262"
+        ]
+      },
+      {
+        "name": "SafeModeFacet",
+        "facetAddress": "0x95D50bED74B26445b9d11Bc3a1d8747220FcB72a",
+        "action": 0,
+        "functionSelectors": [
+          "0x749d2352",
+          "0x356f0365",
+          "0x4d4785cc"
+        ]
+      },
+      {
+        "name": "DiamondCutFacet",
+        "facetAddress": "0x1a27C0E766e649265F78c0EF5514434381dF7903",
+        "functionSelectors": [
+          "0x4b346cb6",
+          "0x689b04f9",
+          "0x607202a3"
+        ]
+      }
+    ]
+  }
+}
