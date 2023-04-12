@@ -60,5 +60,7 @@ LibDiamond.setCoinruleMasterAddress(_coinruleMasterAddress);
 LibDiamond.setWrappedEth(wethAddress);
 ```
 
+Roles can be rotated, where admins and master can be changes only using the master account,
+and same for the owner using the `transferOwnership -> OwnerShipFacet.sol` the user can be changdd to a new one
 The 3 roles are set here, user (owner), admin resposible for deployments and trading, and finally the master account which is mostly for fee managements and safe moed.
 ## 7. Upgradibility
