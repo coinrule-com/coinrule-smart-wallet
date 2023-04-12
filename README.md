@@ -50,17 +50,9 @@ The main goal of the SC is to provide our users and coinrule with a way to execu
 All Tests are run against a local hardhat node. First any test before it runs it calls the loadFixture function which 
 will deploy the smart contract and all the other services testTokens, uniswap etc .. 
 ```shell
+
 yarn install
 create .env file based on the .env.example
 yarn compile
 yarn test:coverage
 ```
-
-### Test in testnet (E2E):
-```shell
-yarn install
-export $(cat .env )
-yarn dev:deploygoerli
-yarn dev:testwebapp
-```
-A React app will run on port 3000. 
